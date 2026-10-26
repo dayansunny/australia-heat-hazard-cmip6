@@ -1,0 +1,14 @@
+# Climate data: too large for git, see data/README.md
+*.nc
+*.zarr/
+data/raw/*
+!data/raw/.gitkeep
+
+# macOS (including AppleDouble files written to exFAT/FAT drives)
+.DS_Store
+._*
+
+# Python and Jupyter
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/

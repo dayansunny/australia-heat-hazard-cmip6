@@ -1,0 +1,20 @@
+name: heat-hazard
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - xarray>=2024.6
+  - netcdf4
+  - cftime
+  - dask
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - cartopy
+  - shapely>=2.0
+  - jupyterlab
+  - nbconvert
+  - pip
+  - pip:
+      - -e .
